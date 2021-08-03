@@ -19,6 +19,7 @@
             <p class="gugudanText" v-for="indexLoop in 9" :key="indexLoop">
                 {{item}} x {{indexLoop}} = {{item*indexLoop}}
             </p>
+            
             <div class="eventBtnWrap animate__animated animate__fadeInRight">
                 <button class="modifyBtn" @click="modifyBtn(index)">수정</button>
                 <button class="removeBtn" @click="removeBtn(index)">삭제</button>
